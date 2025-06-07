@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 from google.adk.agents import Agent
 
-from .helpers.search_photos import search_photos
-from .helpers.get_statistics import get_statistics
+from .tools.search_photos import search_photos
+from .tools.get_statistics import get_statistics
 
 # Dotenv
 load_dotenv()
