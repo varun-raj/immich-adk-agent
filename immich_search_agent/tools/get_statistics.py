@@ -11,7 +11,7 @@ def get_statistics() -> dict:
     Returns:
         dict: status and result or error msg.
     """
-    response_data = call_immich("/api/server/statistics", {})
+    response_data = call_immich("/api/server/statistics", "GET", {})
     if (response_data["status"] == "success"):
         return {"status": "success", "result": response_data}
     else:

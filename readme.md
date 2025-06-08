@@ -28,6 +28,10 @@ pip install adk-sdk
 adk web
 ```
 
+4. Ask a question like "Find photos of cats and create an album of them"
+
+![screenshot.png](./images/screenshot.png)
+
 ### Available Tools
 
 - [x] Search for photos
